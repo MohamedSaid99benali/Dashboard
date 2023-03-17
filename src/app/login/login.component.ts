@@ -14,11 +14,19 @@ export class LoginComponent implements OnInit {
   const sign_up_btn = document.querySelector("#sign-up-btn");
   const container = document.querySelector(".container");
   
-  sign_up_btn?.addEventListener("click", () => {
-    container?.classList.add("sign-up-mode");
-  });
-  sign_in_btn?.addEventListener("click", () => {
-    container?.classList.add("sign-in-mode");
-  });
-}
-}
+  if (sign_up_btn) {
+    sign_up_btn.addEventListener("click", () => {
+      if (container) {
+        container.classList.add("sign-up-mode");
+      }
+    });
+  }
+  
+  if (sign_in_btn) {
+    sign_in_btn.addEventListener("click", () => {
+      if (container) {
+        container.classList.remove("sign-in-mode");
+      }
+    });
+  }
+  }}

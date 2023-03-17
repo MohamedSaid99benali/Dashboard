@@ -1,101 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-        <link rel="stylesheet" href="login.component.css">
-        <script 
-          src="https://kit.fontawesome.com/64d58efce2.js"
-          crossorigin="anonymous"
-        ></script>
-        <title>
-            Smart Parking Dashboard
-        </title>
-    </head>
-    <body>
-        
+<h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>One of us !</h1>
+				<p>Time to check our Smart Parking Dashboard</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>New here ?</h1>
+				<p>This space is allowed only for administrators</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
 
-        <div class="container">
-            <div class="forms-container">
-                <div class="signin-signup">
-
-                    <form action="#" class="sign-in-form">
-                         <!--<h1 class="company-title"> Prologic</h1>-->
-                        <!--<img class="company-logo" src="img/logo.jpg" class="image" alt="" />-->
-                        <h2 class="title">Sign In</h2>
-                        <div class="input-field">
-                            <i class="fas fa-envelope"></i>
-                            <input type="email" placeholder="Email" />
-                        </div>
-                        <div class="input-field">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" placeholder="Password" />
-                        </div>
-                        <input type="submit" value="Login" class="btn"/> 
-
-                    </form>
-
-
-                    <form action="#" class="sign-up-form">
-                        <!--<h1 class="company-title"> Prologic</h1>-->
-                        <!--<img class="company-logo" src="img/logo.jpg" class="image" alt="" />-->
-                        <h2 class="title">Sign up</h2>
-                        <div class="input-field">
-                            <i class="fas fa-user"></i>
-                            <input type="text" placeholder="Username" />
-                        </div>
-                        <div class="input-field">
-                            <i class="fas fa-envelope"></i>
-                            <input type="email" placeholder="Email" /> 
-                        </div>
-                        <div class="input-field">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" placeholder="Password" />
-                        </div>
-                        <input type="submit" value="Sign up" class="btn"  />
-
-                    </form>
-                </div>
-            </div>
-            
-
-        </div>
-
-        <div class="panels-container">
-            <div class="panel left-panel"> 
-                <div class="content">
-                    <h3>New here ?</h3>
-                    <p>
-                      This space is allowed only for administrators! 
-                    </p>
-                    <button class="btn transparent" id="sign-up-btn">
-                        Sign up
-                    </button>
-                </div>
-                <img src="/src/assets/register.jpg" class="image" alt="" />
-               
-            </div>
-
-                <div class="panel right-panel">
-                <div class="content">
-                    <h3>One of us ?</h3>
-                    <p>
-                      Time to check our Smart Parking Dashboard .
-                    </p>
-<<<<<<< HEAD
-                    <button class="btn transparent" id="sign-up-btn">
-                        Sign-in
-=======
-                    <button class="btn transparent" id="sign-in-btn">
-                        Sign in
->>>>>>> 2f582351e1ee6d6954034980a8621710f4d76b99
-                    </button>
-                </div>
-                <img src="/src/assets/log.png" class="image" alt="" />
-
-            </div>
-        </div>
-        
-    </body>
-</html>
-
+<footer>
+	<p>
+		Created with <i class="fa fa-heart"></i> by
+		<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
+		- Read how I created this and how you can join the challenge
+		<a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
+	</p>
+</footer>

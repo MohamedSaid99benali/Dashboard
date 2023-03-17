@@ -215,8 +215,7 @@ form.sign-in-form {
 .right-panel .content {
     transform: translateX(800px);
 }
-<<<<<<< HEAD
-=======
+
 .container.sign-in-mode .signin-signup {
     left: 25%;
 }
@@ -248,7 +247,6 @@ form.sign-in-form {
 
 
 /*sign up*/
->>>>>>> 2f582351e1ee6d6954034980a8621710f4d76b99
 .container.sign-up-mode:before {
     transform: translate(100%, -50%);
     right: 52%;
@@ -366,12 +364,8 @@ form.sign-in-form {
         transform: translate(-50%, 100%);
         bottom: 32%;
         right: initial;
-<<<<<<< HEAD
-    }
-=======
     }  
     
->>>>>>> 2f582351e1ee6d6954034980a8621710f4d76b99
 
     .container.sign-up-mode .Left-panel .image,
     .container.sign-up-mode .Left-panel .content {

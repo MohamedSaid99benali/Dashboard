@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
     container?.classList.add("sign-up-mode");
   });
   sign_in_btn?.addEventListener("click", () => {
-    container?.classList.remove("sign-in-mode");
+    container?.classList.add("sign-in-mode");
   });
 }
 }

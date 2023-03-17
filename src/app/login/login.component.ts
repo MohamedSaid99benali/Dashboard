@@ -14,6 +14,7 @@ export class LoginComponent implements OnInit {
   const sign_up_btn = document.querySelector("#sign-up-btn");
   const container = document.querySelector(".container");
   
+<<<<<<< HEAD
   if (sign_up_btn) {
     sign_up_btn.addEventListener("click", () => {
       if (container) {
@@ -30,3 +31,13 @@ export class LoginComponent implements OnInit {
     });
   }
   }}
+=======
+  sign_up_btn?.addEventListener("click", () => {
+    container?.classList.add("sign-up-mode");
+  });
+  sign_in_btn?.addEventListener("click", () => {
+    container?.classList.remove("sign-in-mode");
+  });
+}
+}
+>>>>>>> 2f582351e1ee6d6954034980a8621710f4d76b99

@@ -215,6 +215,40 @@ form.sign-in-form {
 .right-panel .content {
     transform: translateX(800px);
 }
+<<<<<<< HEAD
+=======
+.container.sign-in-mode .signin-signup {
+    left: 25%;
+}
+
+.container.sign-in-mode form.sign-up-form {
+    opacity: 0;
+    z-index: 1;
+}
+
+.container.sign-in-mode form.sign-in-form {
+    opacity: 1;
+    z-index: 2;
+}
+.container.sign-in-mode .left-panel .image,
+.container.sign-in-mode .left-panel .content {
+    transform: translateX(0%)
+}
+
+.container.sign-in-mode .left-panel {
+    pointer-events: all;
+}
+
+.container.sign-in-mode .right-panel {
+    pointer-events: none;
+}
+
+
+
+
+
+/*sign up*/
+>>>>>>> 2f582351e1ee6d6954034980a8621710f4d76b99
 .container.sign-up-mode:before {
     transform: translate(100%, -50%);
     right: 52%;
@@ -332,7 +366,12 @@ form.sign-in-form {
         transform: translate(-50%, 100%);
         bottom: 32%;
         right: initial;
+<<<<<<< HEAD
     }
+=======
+    }  
+    
+>>>>>>> 2f582351e1ee6d6954034980a8621710f4d76b99
 
     .container.sign-up-mode .Left-panel .image,
     .container.sign-up-mode .Left-panel .content {
@@ -353,6 +392,35 @@ form.sign-in-form {
         top: 5%;
         transform: translate(-50%, 0);
     }
+    /*zeyed*/
+
+    .container.sign-in-mode:before {
+        transform: translate(100%, -50%);
+        bottom: 68%;
+        left: initial;
+    }  
+    
+    
+    .container.sign-up-mode .left-panel .image,
+    .container.sign-up-mode .left-panel .content {
+        transform: translateY(300px);
+    }
+
+    .container.sign-up-mode .right-panel .image,
+    .container.sign-up-mode .right-panel .content {
+        transform: translateY(100px);
+    }
+
+    .right-panel .image,
+    .right-panel .content {
+        transform: translateY(-300px);
+    }
+
+    .container.sign-up-mode .signin-signup {
+        top: 5%;
+        transform: translate(0,-50);
+    }
+
 }
 
 @media(max-width: 570px) {
